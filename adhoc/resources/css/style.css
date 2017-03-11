@@ -13,14 +13,221 @@ body {
   margin: 0 auto;
 }
 
-nav {
-  height: 70px;
+.container-fluid {
+  width: 1020px;
+  margin: 0 auto;
 }
 
-.navbar ul li a {
-  background-color: #fff;
-  border: 1px solid blue;
+.navbar-header {
+  margin-left: 15px;
 }
+
+nav .navbar-nav .navbar-right {
+  margin-right: 15px;
+}
+
+/* title */
+.navbar-default .navbar-brand {
+    color: #777;
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+
+
+/* link */
+.navbar-default .navbar-nav > li > a {
+    font-family: "Roboto";
+    color: #37c2aa;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #37c2aa;
+}
+.navbar-default .navbar-nav > .active > a {
+  color: #4a4a4a;
+  background-color: #F8F8F8;
+}
+
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #37c2aa;
+    background-color: #F8F8F8;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #37c2aa;
+    background-color: #F8F8F8;
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+  background-image: url("../../resources/images/jumbotron.png");
+  height: 43.5rem;
+}
+
+.jumbotron .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 17rem;
+}
+
+.jumbotron-text {
+  width: 80%;
+  margin: 0;
+  padding: 10px;
+}
+
+.jumbotron h1 {
+  font-family: "Arbutus Slab";
+  font-size: 3.75rem;
+  color: white;
+  background-color: #d404af;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  width: 90%;
+}
+
+.jumbotron h2 {
+  font-family: "Roboto";
+  font-size: 1.25rem;
+  background-color: #f5cb07;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  width: 90%;
+}
+
+/*Pull Quote*/
+
+.pull-quote .container {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  width: 80%;
+  padding: 0;
+}
+
+.pull-quote .quote-text {
+  font-family: "Droid Serif";
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.3;
+  color: #4a4a4a;
+}
+
+.pull-quote .attributed {
+  font-family: "Roboto";
+  font-size: 0.875rem;
+  font-style: italic;
+  line-height: 1.4;
+  margin-top: .75rem;
+}
+
+/* Why Adhoc?*/
+.whyAdhoc .container {
+  width: 100%;
+}
+
+.headerAndHr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerAndHr h1 {
+  font-family: "Arbutus Slab";
+  font-size: 3rem;
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  background-color: white;
+  margin-bottom: 2rem;
+  width: 40%;
+}
+
+.divider-l {
+  height: 1px;
+  width: 30%;
+  background-color: gray;
+  margin-bottom: 1rem;
+}
+
+.divider-r {
+  height: 1px;
+  width: 30%;
+  background-color: gray;
+  margin-bottom: 1rem;
+}
+
+.whyAdhoc .container .headerAndHR {
+}
+
+.thumbnail {
+  border: 0;
+}
+
+.thumbnails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*Meet the team*/
+.meetTheTeam .container {
+  background-color: #4a4a4a;
+  width: 100%;
+}
+
+.meetTheTeam h1 {
+  color: white;
+  font-family: "Arbutus Slab";
+  font-size: 3rem;
+  margin-top: 5.5rem;
+  text-align: center;
+  margin-bottom: 3.375rem;
+}
+
+.meetTheTeam a .thumbnail {
+  border: 0;
+}
+
+.thumbnails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7.25rem;
+}
+
+.meetTheTeam .row .thumnail {
+  width: 20%;
+}
+
+.thumbnails img {
+  width: 100%;
+  height: auto;
+}
+
+.meetTheTeam .thumnail {
+  margin-bottom: 2rem;
+}
+
+.thumbnails .name {
+  font-weight: bold;
+  margin: 0;
+  color: white;
+}
+
+.thumbnails .title {
+  font-weight: normal;
+  margin: 0;
+  color: white;
+}
+
+/* Footer */
 
 footer {
   padding-top: 2.25rem;
