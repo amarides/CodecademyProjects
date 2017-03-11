@@ -1,0 +1,33 @@
+html {
+  font-size: 16px;
+  background-color: #f8f8f8;
+}
+
+body {
+  padding-top: 2.25rem;
+  margin: 0;
+}
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+nav {
+  height: 70px;
+}
+
+.navbar ul li a {
+  background-color: #fff;
+  border: 1px solid blue;
+}
+
+footer {
+  padding-top: 2.25rem;
+  text-align: center;
+  padding-bottom: 2.25rem;
+}
+
+.legal {
+  margin-top: 2rem;
+}
