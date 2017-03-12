@@ -1,0 +1,243 @@
+/* general */
+
+body {
+  font-family: "Oxygen","Oxygen","Segoe UI","Helvetica Neue",sans-serif;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  width: 1024px;
+  margin: 0 auto;
+}
+h3 {
+  color: #399bd1;
+  font-weight: bold;
+}
+
+/* nav  */
+
+nav {
+  height: 6.25rem;
+}
+
+.navbar ul li a {
+ line-height: 3.25rem;
+}
+
+.navbar a img {
+ margin-top: .65rem;
+}
+
+nav .container-fluid ul li {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* nav links */
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #399bd1;
+}
+.navbar-default .navbar-nav > .active > a {
+  color: #777777;
+  background-color: #F8F8F8;
+}
+
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #399bd1;
+    background-color: #F8F8F8;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #399bd1;
+    background-color: #F8F8F8;
+}
+
+/* jumbotron */
+.jumbotron {
+  background-image: url("../../resources/images/jumbotron.png");
+  height: 70rem;
+  width: auto;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron-text {
+  margin-top: 230px;
+}
+
+.jumbotron h1 {
+  font-family: "Monoton", sans-serif;
+  font-size: 10rem;
+  color: white;
+  text-align: center;
+}
+
+.jumbotron h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 1.5;
+}
+
+.btn {
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 15px 35px;
+  background-color: #399bd1;
+  border: 0;
+  border-radius: 5px;
+}
+
+/* Featured Project */
+.featuredProject {
+}
+
+.featuredProject .container {
+  width: 100%;
+  padding: 60px;
+}
+
+.featuredProject h3 {
+  margin-bottom: 20px;
+}
+
+.featuredProject-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.featuredProject-content img {
+  width: 50%;
+}
+
+.featuredProject-content .project-title {
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+}
+.featuredProject-content .project-categories {
+  width: 25%;
+  margin-left: 30px;
+  padding-top: 0;
+}
+
+.featuredProject h4 {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.featuredProject .project-categories h4 {
+  color: #399bd1;
+}
+
+.project-title .bodycopy-name {
+  margin-bottom: 10px;
+}
+
+.mobile-title-categories {
+  display: flex;
+  flex-direction: wrap;
+}
+
+/* Projects */
+.thumbnail {
+  border: 0;
+  vertical-align: middle;
+}
+
+.projects .container {
+  width: 100%;
+  padding: 60px;
+}
+/* Footer */
+footer .container {
+  margin: 0 auto;
+  width: 100%;
+}
+footer {
+  background-color: #f2f2f2;
+  height: 300px;
+  text-align: center;
+  padding-top: 50px;
+}
+.footer-text {
+  font-weight: bold;
+  font-size: 32px;
+  padding-bottom: 15px;
+}
+footer .bodycopy {
+  padding-bottom: 20px;
+}
+
+/* responsive 960 width */
+@media only screen and (max-width: 960px) {
+  .navbar-brand {
+    display: none;
+  }
+  .featuredProject-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .featuredProject-content img {
+    width: auto;
+  }
+  .mobile-title-categories {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 85%;
+  }
+  .featuredProject .container .featuredProject-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .featuredProject .project-title {
+   width: 50%;
+   margin-left: 0;
+  }
+  .featuredProject .project-categories {
+    width: 50%;
+  }
+
+}
+
+/* responsive 640 width */
+@media only screen and (max-width: 640px) {
+  .jumbotron-text h2 {
+    font-size: 16px;
+  }
+  .jumbotron-text h1 {
+    font-size: 8rem;
+  }
+  .mobile-title-categories {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .featuredProject-content img {
+    width: 100%;
+  }
+  .featuredProject .container {
+    margin: 0;
+    padding: 20px;
+  }
+}
