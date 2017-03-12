@@ -173,6 +173,7 @@ nav .navbar-nav .navbar-right {
 .meetTheTeam {
   background-color: #4a4a4a;
   border: 0;
+  padding-bottom: 7.25rem;
 }
 
 .meetTheTeam .container {
@@ -194,15 +195,72 @@ nav .navbar-nav .navbar-right {
   margin-bottom: 3.375rem;
 }
 
+.meetTheTeam .name {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.meetTheTeam .title {
+  color: white;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.meetTheTeam .thumbnail {
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  background: none;
+}
+
+/* Current Clients */
+
+.currentClients .container {
+  width: 100%;
+  padding-top: 5.25rem;
+}
+
+.currentClients .row {
+  margin-top: 44px;
+  margin-bottom: 5rem;
+}
+
+.currentClients .headerAndHr {
+  margin: 0;
+  padding: 0;
+}
+
+.currentClients .thumbnail {
+  margin-bottom: 2rem;
+}
 
 /* Footer */
 
 footer {
-  padding-top: 2.25rem;
+  padding-top: 2.625rem;
   text-align: center;
-  padding-bottom: 2.25rem;
+  padding-bottom: 2rem;
+  background-color: #e9ebeb;
+}
+
+footer .container {
+  width: 100%;
 }
 
 .legal {
   margin-top: 2rem;
+  font-size: .75rem;
+}
+
+.fa-facebook {
+  color: #007faa;
+}
+
+.fa-instagram {
+  color: #007faa;
+}
+
+.fa-twitter {
+  color: #007faa;
 }
