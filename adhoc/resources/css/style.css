@@ -169,17 +169,20 @@ nav .navbar-nav .navbar-right {
   border: 0;
 }
 
-.thumbnails {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/*Meet the team*/
+.meetTheTeam {
+  background-color: #4a4a4a;
+  border: 0;
 }
 
-
-/*Meet the team*/
 .meetTheTeam .container {
-  background-color: #4a4a4a;
-  width: 100%;
+   width: 100%;
+}
+
+.meetTheTeam img {
+  max-width: 100%;
+  border: 0;
+  vertical-align: middle;
 }
 
 .meetTheTeam h1 {
@@ -191,41 +194,6 @@ nav .navbar-nav .navbar-right {
   margin-bottom: 3.375rem;
 }
 
-.meetTheTeam a .thumbnail {
-  border: 0;
-}
-
-.thumbnails {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 7.25rem;
-}
-
-.meetTheTeam .row .thumnail {
-  width: 20%;
-}
-
-.thumbnails img {
-  width: 100%;
-  height: auto;
-}
-
-.meetTheTeam .thumnail {
-  margin-bottom: 2rem;
-}
-
-.thumbnails .name {
-  font-weight: bold;
-  margin: 0;
-  color: white;
-}
-
-.thumbnails .title {
-  font-weight: normal;
-  margin: 0;
-  color: white;
-}
 
 /* Footer */
 
