@@ -1,0 +1,55 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.top-nav {
+  color: white;
+  padding-left: 1rem;
+  margin: 0px;
+}
+
+.top-nav .container {
+  background-color: cadetblue;
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding-left: 2rem;
+}
+
+.logo img {
+  height: 1.5rem;
+}
+
+.name {
+  border: 1px solid red;
+  padding: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  padding-left: 2rem;
+}
+
+.mobile-nav {
+  display: none;
+}

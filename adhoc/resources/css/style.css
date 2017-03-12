@@ -65,6 +65,7 @@ nav .navbar-nav .navbar-right {
 .jumbotron {
   background-image: url("../../resources/images/jumbotron.png");
   height: 43.5rem;
+  margin: 0;
 }
 
 .jumbotron .container {
@@ -77,15 +78,15 @@ nav .navbar-nav .navbar-right {
 .jumbotron-text {
   width: 80%;
   margin: 0;
-  padding: 10px;
+  text-align: center;
 }
 
 .jumbotron h1 {
   font-family: "Arbutus Slab";
-  font-size: 3.75rem;
+  font-size: 2.5rem;
   color: white;
   background-color: #d404af;
-  margin: 0;
+  margin: 0 auto;
   padding: 10px;
   text-align: center;
   width: 90%;
@@ -95,7 +96,7 @@ nav .navbar-nav .navbar-right {
   font-family: "Roboto";
   font-size: 1.25rem;
   background-color: #f5cb07;
-  margin: 0;
+  margin: 0 auto;
   padding: 10px;
   text-align: center;
   width: 90%;

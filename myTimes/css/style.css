@@ -1,0 +1,255 @@
+body {
+  margin: 0px;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+#box1 {
+  display: inline-flex;
+  color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  align-items: center;
+  margin-right: 15px;
+}
+
+#box1a {
+}
+
+#box1b {
+  margin-left: 10px;
+}
+
+#box2 {
+  display: flex;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+
+}
+ul li {
+  display: inline-flex;
+  flex-flow: row wrap;
+  list-style: none;
+  padding: 10px;
+}
+
+a {
+  color: black;
+}
+
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 116px;
+}
+
+.large {
+  width: 640px;
+  margin-right: 30px;
+}
+
+.box2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.medium {
+  width: 300px;
+  margin-right: 30px;
+}
+
+.small {
+  width: 240px;
+  display: flex;
+  flex-flow: nowrap column;
+  align-content: flex-end;
+}
+
+.list-box {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  display: flex;
+  justify-content: stretch;
+  margin: 0px;
+}
+
+.li-news {
+  border-bottom: 1px solid black;
+  display: block;
+  background-color: whitesmoke;
+  padding: 11px 20px;
+}
+
+.orca {
+  display: flex;
+  flex-flow: wrap row;
+  align-content: flex-start;
+  width: 90%;
+  margin-right: 10px;
+}
+
+.earth-image {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  height: 300px;
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.cta-earth {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+
+.burger {
+  display: flex;
+  flex-flow: wrap row;
+  align-content: flex-start;
+  width: 90%;
+  margin-left: 10px;
+}
+
+.camera-image {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  height: 300px;
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.cta-camera {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.tuna {
+  display: flex;
+  align-items: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  background-size: 100%;
+  height: 300px;
+}
+
+.photo-quote {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  padding-left: 20px;
+}
+
+h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fbi {
+}
+
+.cats {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  height: 300px;
+  background-size: 100%;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.cats-cta {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.footer-box {
+  background-color: MediumAquamarine;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 80px;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+}
+
+.footer-logolinks {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.footer-logo {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 20px;
+}
+
+.footer-links {
+  padding-left: 20px;
+}
+
+.footer-indiv-links {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-copyright {
+  display: block;
+  padding-top: 20px;
+}

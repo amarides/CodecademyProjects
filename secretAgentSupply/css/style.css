@@ -1,0 +1,376 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.top-nav {
+  background-color: black;
+  color: white;
+  padding-left: 0.5rem;
+  margin: 0px;
+  /* Remove the display property and align-itmes, this will be moved to a special case style which is right below this .top-nav style */
+  /*display: flex;
+  align-items: center;*/
+}
+/* Add special case for .top-nav .container */
+.top-nav .container {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.top-nav-logo {
+  margin-left: 1rem;
+  height: 1.5rem;
+}
+
+/* Add height for logo image */
+.top-nav-logo img {
+  height: 1.5rem;
+}
+
+
+.top-nav-copy {
+  font-family: Helvetica;
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+nav {
+   background-color: firebrick;
+}
+
+nav ul {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  margin: 0;
+}
+
+nav ul li {
+  color: white;
+  list-style: none;
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-bottom: .25rem;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-weight: 2rem;
+  font-weight: bold;
+}
+
+.main-container {
+  height: 25rem;
+  background-image: url('../images/moto.jpg');
+  /* Add background-size*/
+  background-size: cover;
+  padding: 24px;
+  height: 25em;
+}
+
+
+.main-text-box {
+  background-color: black;
+  color: white;
+  width: 20rem;
+  /* changed this to just padding and using rem
+  padding-left: 40px;
+  padding-top: 2rem;
+  */
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.box1 {
+  border: 4px solid black;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box1-img {
+  background-image: url('../images/pen.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 9rem;
+  width: 50%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.box1-text {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.box2 {
+  border: 4px solid black;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.box2-img {
+  background-image: url('../images/watch.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 9rem;
+  width: 50%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-position: center;
+}
+
+.box2-text {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.box3 {
+  border: 4px solid black;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.box3-img {
+  background-image: url('../images/glasses.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 9rem;
+  width: 50%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-position: center;
+}
+
+.box3-text {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+/* Added .info style */
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.location {
+  width: 35%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.location-name {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.location-info {
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding-top: .25rem;
+}
+
+.hours {
+  width: 35%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hours-name {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.hours-info {
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding-top: .25rem;
+}
+
+footer {
+  text-align: left;
+  background-color: black;
+  padding: 5rem 0;
+  color: white;
+}
+
+.mobile-nav {
+  display: none;
+}
+/* changed this to 1024px because this is the most common pixel size for large mobile devices */
+@media only screen and (max-width: 1024px) {
+  /* Make it so now any screen size below 1024px, the container will take up the full width of the screen */
+  .container {
+    width: 100%;
+  }
+  .box3 {
+    display: none;
+  }
+  .box2 {
+    width: 47%;
+  }
+  .box1 {
+    width: 47%;
+  }
+  .hours {
+    width: 35%;
+  }
+  .location {
+    width: 35%;
+  }
+  /* I removed the nav{display: none;} controlling visiblity directly on the <ul>*/
+  .main-nav {
+    display: none;
+  }
+  .mobile-nav  {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  /* Resize main container */
+  .main-container {
+    height: 15rem;
+  }
+  /* re-orient info to column and increase width so it better fits on phones */
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* change width of location and hours to take up 90% of available space */
+  .location,
+  .hours {
+    width: 90%;
+  }
+  /* justify the content of container 1 to center, since there is only one visible now*/
+  .container1 {
+    justify-content: center;
+  }
+  h2 {
+    font-size: 0.77rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  .box3 {
+    display: none;
+  }
+  .box2 {
+    display: none;
+  }
+  .box1 {
+    width: 90%;
+  }
+  /* Change padding of logo div so it doesn't add pixels off to the left of the screen */
+  .top-nav-logo {
+    padding: 1rem 0;
+  }
+  /* Remove padding from the main container */
+  .main-container {
+    padding:0;
+  }
+  .main-text-box {
+    /* Same as the logo div, make it so there is no padding on the sides to the top and bottom. We will deal with positioning on the text itself
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;*/
+    padding: 1rem 0;
+    /* change out the margin for the top position property. We set it earlier to position: relative */
+    top: 10rem;
+    width: 100%;
+  }
+  /* remove for h1 and h2 in .main-text-box */
+  .main-text-box h1,
+  .main-text-box h2 {
+    margin: 0;
+  }
+  .mobile-nav  {
+    display: flex;
+    justify-content: center;
+  }
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: column;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+  footer {
+    text-align: center;
+  }
+}
