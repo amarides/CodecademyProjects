@@ -5,10 +5,101 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-.container {
-  width: 1024px;
+body{
+  margin: 0;
 }
 
-body{
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1024px;
   margin: 0 auto;
+}
+
+/* Navigation */
+
+nav {
+  height: 3.875rem;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo img {
+  height: 3.125rem;
+  margin-left: 3.6875rem;
+}
+
+.nav-links {
+  margin-right: 3.4375rem;
+}
+
+.nav-links a:hover {
+  color: #f5a623;
+}
+
+
+.nav-links ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.nav-links a {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 2.5rem;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url("../../resources/images/dancers-photo.png");
+  height: 37rem;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jumbotron-textbox {
+ text-align: center;
+ width: 45rem;
+ margin: auto;
+ padding-top: 9.4375rem;
+}
+
+.jumbotron-textbox h1 {
+  font-family: "Roboto";
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1;
+}
+
+.jumbotron-textbox .subhead {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #FFF;
+}
+
+a .jumbotron-button {
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 1.375rem;
+  font-weight: bold;
+}
+
+.jumbotron-button {
+  border-radius: 2px;
+  background-color: #f5a623;
+  padding: 1.25rem 3.125rem;
+  width: 30%;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 3.125rem;
 }
