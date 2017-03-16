@@ -11,6 +11,7 @@ body{
 
 a {
   text-decoration: none;
+  color: #FFF;
 }
 
 .container {
@@ -26,6 +27,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
 
 .nav-logo img {
@@ -61,9 +64,8 @@ nav {
 /* Jumbotron */
 .jumbotron {
   background-image: url("../../resources/images/dancers-photo.png");
-  height: 37rem;
-  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .jumbotron-textbox {
@@ -103,3 +105,218 @@ a .jumbotron-button {
   margin-top: 5rem;
   margin-bottom: 3.125rem;
 }
+
+/* module1-dance */
+
+.module1-hiphop {
+  background-image: url("../../resources/images/graffiti-photo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.module1-hiphop .container {
+  height: 31.25rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.module2-firedance {
+  height: 31.25rem;
+  width: 100%;
+  background-image: url("../../resources/images/fire-photo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.module2-firedance .container {
+  height: 31.25rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.module3-aerialdance {
+  height: 31.25rem;
+  width: 100%;
+  background-image: url("../../resources/images/jump-photo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.module3-aerialdance .container {
+  height: 31.25rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.module-textbox {
+  background-color: rgba(120, 73, 225, 0.9);
+  width: 25rem;
+  height: auto;
+  padding: 5rem 3rem;
+  margin-top: 5rem;
+  margin-bottom: 0;
+  color: #FFF;
+}
+
+.module-textbox h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+}
+
+.module-textbox .bodycopy {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 1.25rem;
+}
+
+.module-textbox .cta {
+  font-weight: bold;
+}
+
+/* Footer */
+footer .container {
+  background-image: url("../../resources/images/party-photo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+footer .footer-top {
+  height: 3.125rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFF;
+  padding: .5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+footer .icons ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 9.375rem;
+}
+
+footer .icons ul li {
+  margin: 1rem;
+}
+
+.fa {
+  color: #FFF;
+}
+
+footer .footer-links {
+  text-decoration: none;
+  color: #FFF;
+  font-size: .875rem;
+}
+
+footer .footer-bottom-desktop .container {
+  height: 15rem;
+}
+
+footer .footer-bottom-desktop {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+footer .footer-bottom-desktop p {
+  font-size: .875rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer .footer-bottom-mobile {
+  display: none;
+}
+
+/* Tablet 768px */
+@media only screen and (max-width: 768px) {
+  .jumbotron-textbox {
+     width: 31.25rem;
+     margin: auto;
+  }
+  .jumbotron-button {
+    border-radius: 2px;
+    background-color: #f5a623;
+    padding: 1.25rem 3.125rem;
+    width: 40%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 1.125rem;
+  }
+  .module-textbox {
+    text-align: left;
+    padding: 1.875rem 3.4375rem 3.4375rem 1.875rem;
+    width: 100%;
+  }
+
+  .module-textbox h2 {
+    font-size: 1.875rem;
+    line-height: 1.4;
+    margin-bottom: .625rem;
+  }
+
+  .module-textbox .bodycopy {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+  }
+  .footer-top img {
+    display: none;
+  }
+  .footer-top .icons {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .footer-top .footer-links {
+    display: none;
+  }
+  .fa {
+    font-size: 1.5rem;
+  }
+  .footer-bottom-desktop {
+    display: none;
+  }
+  .footer-top {
+    height: 2.5rem;
+  }
+  footer .container .footer-bottom-mobile {
+    display: block;
+    height: 8.75rem;
+  }
+  .footer-bottom-mobile {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 1.875rem;
+    padding-bottom: 0;
+   }
+  .footer-bottom-mobile p {
+    color: #FFF;
+    font-size: .625rem;
+    letter-spacing: 0.5px;
+    padding: .3rem;
+    text-align: center;
+  }
+   #copyright {
+     margin-top: 1rem;
+   }
+}
+
+/* Mobile 480px */
