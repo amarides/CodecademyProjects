@@ -37,6 +37,10 @@ nav {
   margin-left: 3.6875rem;
 }
 
+.nav-logo-mobile {
+  display: none;
+}
+
 .nav-links {
   margin-right: 3.4375rem;
 }
@@ -338,3 +342,74 @@ footer .footer-bottom-mobile {
     margin-top: 2.5rem;
     padding-top: 7.125rem;
   }
+  .nav-logo {
+    display: none;
+  }
+  .nav-logo-mobile {
+    display: block;
+  }
+  .nav-links a {
+    font-size: .75rem;
+    margin-right: 0;
+  }
+  .nav-links {
+    margin-right: .625rem;
+  }
+  .nav-logo-mobile img {
+    margin-left: .625rem;
+  }
+  .jumbotron {
+    margin-top: 2.5rem;
+    padding-top: 7.125rem;
+  }
+
+  .jumbotron-textbox {
+   text-align: center;
+   width: 18.5rem;
+   margin: auto;
+  }
+
+  .jumbotron-textbox h1 {
+    font-size: 1.875rem;
+    margin-bottom: 1.625rem;
+  }
+
+  .jumbotron-textbox .subhead {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  a.jumbotron-button {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 1.375rem;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  .jumbotron-button {
+    border-radius: 2px;
+    background-color: #f5a623;
+    margin: auto;
+    margin-top: 3.875rem;
+    margin-bottom: 3.125rem;
+    width: 14rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .module-textbox {
+    text-align: left;
+    padding: 1.875rem 1.25rem 2rem 1.25rem;
+    width: 100%;
+  }
+
+  .module-textbox h2 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin-bottom: .625rem;
+  }
+
+  .module-textbox .cta {
+    font-size: 1rem;
+  }
+}
