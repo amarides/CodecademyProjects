@@ -60,6 +60,7 @@ nav {
 .nav-links li {
   color: #f5a623;
   font-weight: bold;
+  margin-left: 2.5rem;
 }
 
 .nav-links a {
@@ -68,7 +69,6 @@ nav {
   font-weight: bold;
   color: #fff;
   text-decoration: none;
-  margin-left: 2.5rem;
 }
 
 /* Jumbotron */
@@ -131,7 +131,7 @@ a.jumbotron-button {
 .jumbotron-textbox-about {
   width: 40%;
   text-align: center;
-  margin-right: 5rem;
+  margin-right: 8rem;
 }
 .jumbotron-about .hidden-box img {
   height: auto;
@@ -151,7 +151,6 @@ a.jumbotron-button {
 }
 
 /* modules - home */
-
 .module1-hiphop {
   background-image: url("../../resources/images/graffiti-photo.png");
   background-repeat: no-repeat;
@@ -332,6 +331,44 @@ a.jumbotron-button {
 .module-textbox-map .bold {
   font-weight: bold;
 }
+
+/* modules - classes */
+.modules-classes .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  margin: 5.3125rem 2rem 4rem 2rem;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+.modules-classes .container .details {
+  width: 25rem;
+}
+.modules-classes .title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: rgba(174, 75, 227, 0.9);
+  margin-bottom: 1.125rem;
+}
+.modules-classes .days {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+.modules-classes .time {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #000;
+  margin-bottom: 1.125rem;
+}
+.modules-classes .description {
+  font-size: .875rem;
+  line-height: 1.7;
+  margin-bottom: 3.75rem;
+}
+
 
 /* Footer */
 footer .container {
@@ -596,6 +633,47 @@ footer .footer-bottom-mobile {
   }
 }
 
+/* Tablet 768px - Classes */
+@media only screen and (max-width: 768px) {
+  .modules-classes .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  margin: 0 auto;
+  margin-top: 5.3125rem;
+  margin-bottom: 4rem;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+.modules-classes .container .details {
+  width: 18.75rem;
+}
+.modules-classes .title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: rgba(174, 75, 227, 0.9);
+  margin-bottom: 1.125rem;
+}
+.modules-classes .days {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+.modules-classes .time {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #000;
+  margin-bottom: 1.125rem;
+}
+.modules-classes .description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 2.25rem;
+}
+}
+
 /* Mobile 550px - Home */
 @media only screen and (max-width: 550px) {
   nav {
@@ -744,4 +822,44 @@ footer .footer-bottom-mobile {
   margin: 0;
   width: 80%;
   }
+}
+
+/* Mobile 550px - Classes*/
+@media only screen and (max-width: 550px) {
+.modules-classes .container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: baseline;
+margin-top: 5.3125rem;
+margin-bottom: 4rem;
+padding: 0;
+width: 100%;
+height: auto;
+}
+.modules-classes .container .details {
+width: 20rem;
+}
+.modules-classes .title {
+font-size: 1.875rem;
+font-weight: bold;
+color: rgba(174, 75, 227, 0.9);
+margin-bottom: 1.125rem;
+}
+.modules-classes .days {
+font-size: 1rem;
+font-weight: bold;
+}
+.modules-classes .time {
+font-size: .875rem;
+line-height: 1.7;
+color: #000;
+margin-bottom: 1rem;
+}
+.modules-classes .description {
+font-size: .875rem;
+line-height: 1.7;
+margin-bottom: 2.25rem;
+}
 }
