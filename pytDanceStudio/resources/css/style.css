@@ -136,6 +136,7 @@ a.jumbotron-button {
 .jumbotron-about .hidden-box img {
   height: auto;
   width: 100%;
+  line-height: 0;
 }
 .jumbotron-about img {
   line-height: 0;
@@ -600,6 +601,7 @@ footer .footer-bottom-mobile {
     width: 100%;
     margin: 0;
     padding: 0;
+    line-height: 0;
   }
   .jumbotron-textbox-about {
     width: 85%;
@@ -844,6 +846,7 @@ footer .footer-bottom-mobile {
     width: 100%;
     margin: 0;
     padding: 0;
+    line-height: 0;
   }
   .jumbotron-textbox-about {
     width: 90%;
