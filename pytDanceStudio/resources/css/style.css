@@ -137,6 +137,9 @@ a.jumbotron-button {
   height: auto;
   width: 100%;
 }
+.jumbotron-about img {
+  line-height: 0;
+}
 .jumbotron-textbox-about h1 {
   font-family: "Roboto";
   font-size: 3.125rem;
@@ -149,6 +152,43 @@ a.jumbotron-button {
   line-height: 1.5;
   color: #666;
 }
+
+/* Jumbotron - Faculty */
+.jumbotron-faculty .container {
+  background-image: url("../../resources/images/faculty-photo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 3.875rem;
+  top: 0;
+  border-bottom: 10px solid #8a54ff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 36rem;
+  width: 100%;
+}
+.jumbotron-textbox-faculty {
+  color: #fff;
+  width: 38rem;
+  margin-right: 7rem;
+  text-align: center;
+}
+.jumbotron-textbox-faculty h1 {
+  color: rgba(174, 75, 227, 0.9);
+  font-family: "Roboto";
+  font-size: 3.125rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 2.685rem;
+}
+.jumbotron-textbox-faculty .subhead {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+
+
 
 /* modules - home */
 .module1-hiphop {
@@ -368,6 +408,43 @@ a.jumbotron-button {
   line-height: 1.7;
   margin-bottom: 3.75rem;
 }
+/* Modules Faculty */
+.modules-bios .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  margin: 5.625rem 7.5rem 11.25rem 7.5rem;
+  width: auto;
+}
+.modules-bios img {
+  padding: 0;
+  width: 16.875rem;
+}
+.modules-bios .container .details {
+  text-align: center;
+  width: 16.875rem;
+  margin: 1rem;
+}
+.modules-bios .name {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #8a54ff;
+  margin-bottom: 1.125rem;
+}
+.modules-bios .level {
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding-bottom: .625rem;
+}
+.modules-bios .talents {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #000;
+  margin-bottom: 6.25rem;
+}
+
 
 
 /* Footer */
@@ -536,6 +613,7 @@ footer .footer-bottom-mobile {
     max-height: 350px;
     width: 100%;
     overflow: hidden;
+    line-height: 0;
   }
   .jumbotron-textbox-about h1 {
     font-size: 1.25rem;
@@ -779,6 +857,7 @@ footer .footer-bottom-mobile {
     max-height: 350px;
     width: 100%;
     overflow: hidden;
+    line-height: 0;
   }
   .jumbotron-textbox-about h1 {
     font-size: 1.25rem;
@@ -862,4 +941,41 @@ font-size: .875rem;
 line-height: 1.7;
 margin-bottom: 2.25rem;
 }
+}
+
+/* Mobile 650px - Faculty */
+@media only screen and (max-width: 650px) {
+  .jumbotron-faculty .container {
+    background-image: url("../../resources/images/faculty-photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2.5rem;
+    top: 0;
+    border-bottom: 10px solid #8a54ff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 20rem;
+    width: 100%;
+  }
+  .jumbotron-textbox-faculty {
+    color: #fff;
+    width: 80%;
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .jumbotron-textbox-faculty h1 {
+    font-size: 1.25rem;
+    margin-bottom: 1.2rem;
+  }
+  .jumbotron-textbox-faculty .subhead {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .modules-bios .container {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 }
