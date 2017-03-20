@@ -1,0 +1,184 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  background-color: #fff;
+}
+nav .container {
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: magenta;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  color: white;
+  z-index: 1;
+}
+
+nav .logo {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 2rem;
+  margin-left: 1.5rem;
+}
+nav ul {
+  margin-right: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Fruktur', cursive;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.container .wall {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+.text-box {
+  width: 50%;
+  text-align: center;
+  padding: 1rem;
+  line-height: 1.5;
+  color: #000;
+  font-size: 3rem;
+}
+.maltipoo {
+  font-family: 'Bungee Shade', cursive;
+  line-height: 1.2;
+  padding-bottom: .5rem
+}
+.pomapoo {
+  font-family: 'Fruktur', cursive;
+  text-align: center;
+  line-height: 1.2;
+  padding-bottom: .4rem;
+}
+.california {
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  line-height: 1.2;
+}
+.callout {
+  font-family: 'Gravitas One', cursive;
+}
+.frame1 {
+  background-image: url("../../resources/images/popeOnBed.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 28rem;
+  width: 21rem;
+  border: 40px solid blue;
+  border-image: url("../../resources/images/80s-background.jpg") 30 round;
+  box-shadow: inset 0px 0px 10px 0px #000;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.frame1:hover {
+  transition: 1s;
+  -webkit-transform: rotateZ(-10deg);
+  -ms-transform: rotateZ(10deg);
+  transform: rotateZ(-10deg);
+}
+.title {
+  font-size: 1rem;
+  color: white;
+  font-family: Helvetica;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+.frame2:hover {
+  transition: 1s;
+  -webkit-transform: rotateZ(-10deg);
+  -ms-transform: rotateZ(-10deg);
+  transform: rotateZ(-10deg);
+}
+.frame3:hover {
+  transition: 1s;
+  -webkit-transform: rotateZ(-10deg);
+  -ms-transform: rotateZ(10deg);
+  transform: rotateZ(-10deg);
+}
+.frame2 {
+  background-image: url("../../resources/images/popeSleepingCouch.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 500px;
+  border: 40px solid blue;
+  border-image: url("../../resources/images/90s-pattern.jpg") 30 round;
+  box-shadow: inset 0px 0px 10px 0px #000;
+  margin: 2rem;
+}
+.frame3 {
+  background-image: url("../../resources/images/widgetSleeping.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 350px;
+  border: 40px solid blue;
+  border-image: url("../../resources/images/leopard-bg.gif") 30 round;
+  box-shadow: inset 0px 0px 10px 0px #000;
+  margin: 2rem;
+}
+footer {
+  font-size: .75rem;
+  font-family: Helvetica;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+/* Table 800px - Faculty */
+@media only screen and (max-width: 800px) {
+  .text-box {
+    width: 80%;
+    line-height: 1.3;
+    font-size: 2.5rem;
+  }
+  .container .wall {
+    padding-top: 7rem;
+  }
+  nav ul li a {
+    font-size: 1.25rem;
+    margin-left: 1.25rem;
+  }
+  nav .logo {
+    margin: 0 auto;
+  }
+}
+/* Mobile 600px - Faculty */
+@media only screen and (max-width: 600px) {
+  .text-box {
+    width: 80%;
+    line-height: 1.3;
+    font-size: 2.5rem;
+  }
+  .container .wall {
+    padding-top: 7rem;
+  }
+  nav ul {
+    display: none;
+  }
+  nav .logo {
+    margin: 0 auto;
+  }
+}
